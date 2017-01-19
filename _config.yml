@@ -9,7 +9,7 @@ email: s8yang@uwaterloo.ca
 description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
 keyword: "四维, Siwei, Algorithm, Data Structure, Backend, Coding Challenge, Distributed System, Site Reliability, Machine Learning, Frontend"
 url: "https://s8yang.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
