@@ -1,23 +1,27 @@
+# deployment
+host: 0.0.0.0
+
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title:  Siwei's Blog
+SEOTitle: 死读书的小屋 | Siwei's Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: s8yang@uwaterloo.ca
 description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: "https://huangxuan.me"              # your host, for absolute URL
+keyword: "四维, Siwei, Algorithm, Data Structure, Backend, Coding Challenge, Distributed System, Site Reliability, Machine Learning, Frontend"
+url: "https://s8yang.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
-RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
-# linkedin_username:  firstname-lastname-idxxxx
+# RSS: false
+RSS: true
+# weibo_username:     syang1988@hotmail.com
+zhihu_username:     syang
+github_username:    SiweiYang
+# twitter_username:  siwei.yang
+facebook_username:  siwei.yang
+linkedin_username:  siwei-yang-a2524613
 
 
 
@@ -48,13 +52,12 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+# disqus_username: siweiyang
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: siweiyang
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
 
 
 
@@ -63,15 +66,15 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Coder, studies Computer Science <br> emphasizing on the \"Science\" portion"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -87,8 +90,8 @@ service-worker: true
 
 
 
-# Friends
-friends: [
+# Recommendations
+links: [
     {
         title: "Su",
         href: "http://su.gallery/"

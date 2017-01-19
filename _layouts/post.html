@@ -62,7 +62,7 @@ layout: default
 
                 <hr style="visibility: hidden;">
 
-                {% if site.duoshuo_share && site.duoshuo_username %}
+                {% if site.duoshuo_share and site.duoshuo_username %}
                 <!-- 多说 Share start -->
                 <div class="ds-share"
                     style="text-align: right"
@@ -162,7 +162,7 @@ layout: default
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                            {% if tag[1].size > site.featured-condition-size %}
                 				<a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
@@ -173,12 +173,12 @@ layout: default
                 {% endif %}
 
                 <!-- Friends Blog -->
-                {% if site.friends %}
+                {% if site.links %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>RECOMMENDATIONS</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    {% for link in site.links %}
+                        <li><a href="{{link.href}}">{{link.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
